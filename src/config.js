@@ -1,5 +1,5 @@
 import * as yup from "yup"
-import dotenv from "dotenv"
+import "dotenv/config"
 
 const schema = yup.object().shape({
   port: yup.number().integer().positive().min(80).max(65535).required(),
@@ -8,7 +8,8 @@ const schema = yup.object().shape({
   }),
 })
 
-const data = {
+const config = {
+  
   port: process.env.PORT,
   db: {
     client: process.env.DB_CLIENT,
@@ -38,4 +39,4 @@ const data = {
   },
 }
 
-export default data
+export default config
