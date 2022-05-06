@@ -21,7 +21,7 @@ const config = {
       database: process.env.DB_DATABASE,
     },
     migration: {
-      directory: "./src/db/migration",
+      directory: "../migrations",
       stub: "./src/db/migration.stub",
     },
   },

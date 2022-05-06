@@ -13,11 +13,14 @@
     "crypto": "^1.0.1",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "formik": "^2.2.9",
     "knex": "^2.0.0",
     "mysql2": "^2.3.3",
     "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "tailwind": "^4.0.0",
+    "uuid": "^7.0.3",
     "yup": "^0.32.11"
   },
   "devDependencies": {
